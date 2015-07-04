@@ -18,8 +18,7 @@
 {JBOSS_HOME}/bin/jboss-cli.sh --connect command=:shutdown
 ....
 
-читается это всё на самом деле на сайте с документацией от wildfly
+Читается это всё на самом деле на сайте с документацией от wildfly
 https://community.jboss.org/wiki/JBossAS7UserGuide[JBossAS7UserGuide]
+в разделе *Stopping a running instance of standalone server*
 
-== NetBeans
-в этой IDE это ниндзюцу не прокатило, этот сервер все равно не доступен чтооб его выключить!!!
