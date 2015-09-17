@@ -1,0 +1,15 @@
+# Work with fresh installed MySql
+
+--create user 'shirokuma'@'%' identified by 'developer';
+
+--GRANT ALL PRIVILEGES ON * . * TO 'shirokuma'@'%';
+
+--FLUSH PRIVILEGES;
+
+--SET PASSWORD FOR 'shirokuma'@'%' = PASSWORD ('developer');
+
+--SELECT USER(), CURRENT_USER();
+
+--SHOW VARIABLES LIKE 'skip_networking';
+
+--DROP USER 'shirokuma'@'192.168.10.11';
