@@ -18,6 +18,12 @@
 {JBOSS_HOME}/bin/jboss-cli.sh --connect command=:shutdown
 ....
 
+А когда сервер настроен на IP адресс, то необходимо использовать следующее
+
+....
+{JBOSS_HOME}/bin/jboss-cli.sh --connect controller=<IP>:<port> command=:shutdown
+....
+
 Читается это всё на самом деле на сайте с документацией от wildfly
 https://community.jboss.org/wiki/JBossAS7UserGuide[JBossAS7UserGuide]
 в разделе *Stopping a running instance of standalone server*
