@@ -1,0 +1,4 @@
+= ORM тулза
+:hp-tags: полезняшки
+
+Интересное дополнение для ORM http://www.querydsl.com/
