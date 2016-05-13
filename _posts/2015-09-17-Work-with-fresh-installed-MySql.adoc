@@ -1,5 +1,5 @@
 # Work with fresh installed MySql
-:hp-tags: fireball-для-новичка
+:hp-tags: знай-свой-инструмент
 
 --create user 'shirokuma'@'%' identified by 'developer';
 
@@ -14,3 +14,5 @@
 --SHOW VARIABLES LIKE 'skip_networking';
 
 --DROP USER 'shirokuma'@'192.168.10.11';
+
+ye b xtujns ndfhm yt cj[hfyztimcz
