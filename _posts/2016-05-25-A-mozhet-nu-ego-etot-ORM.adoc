@@ -1,0 +1,10 @@
+= А может ну его этот ORM?
+:hp-tags: поиск, рестарт
+
+Да что-то вот устал я от всей этой бодяги с JPA и Hibernate, с ORM  в целом. И решил поискать, а чего там народ как в целом по этому поводу думает. 
+
+Пока нашел эти две ссылки:
+
+https://dzone.com/articles/jpa-hibernate-alternatives
+
+http://www.hibernate-alternative.com/
