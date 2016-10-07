@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Shirokuma's Roar]]></title><description><![CDATA[Блог немножко о том немножко о сем. Но в целом, о том как я программирую.]]></description><link>https://miroque.github.io/shirokuma</link><image><url>https://static.pexels.com/photos/64769/pexels-photo-64769.jpeg</url><title>Shirokuma&apos;s Roar</title><link>https://miroque.github.io/shirokuma</link></image><generator>RSS for Node</generator><lastBuildDate>Fri, 07 Oct 2016 06:25:03 GMT</lastBuildDate><atom:link href="https://miroque.github.io/shirokuma/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Докер, наконец-то { Docker, at last }]]></title><description><![CDATA[<div class="paragraph">
+<p>В общем и целом, наконец-то я нашел хорошие ресурсы где можно по быстрому подкачаться с этим Докером.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a href="https://docs.docker.com/windows/" class="bare">https://docs.docker.com/windows/</a> да я сижу на винде, короче это первый ресурс с которого надо начать читать.</p>
+</li>
+<li>
+<p><a href="https://docs.docker.com/kitematic/userguide/" class="bare">https://docs.docker.com/kitematic/userguide/</a> это под виндой графическая тулза для работы с докером, тоже полезно, это второй шаг читать</p>
+</li>
+<li>
+<p><a href="https://docs.docker.com/engine/userguide/" class="bare">https://docs.docker.com/engine/userguide/</a> а это как я понял, просто вообще про сам движек докера</p>
+</li>
+</ol>
+</div>]]></description><link>https://miroque.github.io/shirokuma/2016/06/08/Doker-nakonec-to-Docker-at-last.html</link><guid isPermaLink="true">https://miroque.github.io/shirokuma/2016/06/08/Doker-nakonec-to-Docker-at-last.html</guid><category><![CDATA[черновик]]></category><dc:creator><![CDATA[Alexander]]></dc:creator><pubDate>Wed, 08 Jun 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Так как же стать мастером!? { How to become a Master!? }]]></title><description><![CDATA[<div class="paragraph">
+<p>There is no secret, just do something for long time with passion.</p>
+</div>
+<div class="paragraph">
+<p>Like this girl <a href="http://bit.ly/1U2VJY1" class="bare">http://bit.ly/1U2VJY1</a> who became a good violing player after 2 years of practice.</p>
+</div>]]></description><link>https://miroque.github.io/shirokuma/2016/05/20/Tak-kak-zhe-stat-masterom-How-to-become-a-Master.html</link><guid isPermaLink="true">https://miroque.github.io/shirokuma/2016/05/20/Tak-kak-zhe-stat-masterom-How-to-become-a-Master.html</guid><category><![CDATA[черновик]]></category><dc:creator><![CDATA[Alexander]]></dc:creator><pubDate>Fri, 20 May 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Кузня, а ведь удобно { JBoss Forge, pretty sweet }]]></title><description><![CDATA[<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Книга тотально устарела, все команды не действительны. С переходом на новую версию JBoss Forge 3.0.0.CR1 or higher.</p>
+</div>
+<div class="paragraph">
+<p>По этому лучше вместе с книгой смотреть этот ресурс <a href="http://forge.jboss.org/document/hands-on-lab">JBoss Site Documentation</a></p>
+</div>
+<div class="paragraph">
+<p>Есть ли что в книге не описанное в ресурсе, пока не знаю, изучаю дальше.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Пробую по книжке покачаться до беспрерывной интеграции <a href="http://bit.ly/1XLMRZZ">Continuous Enterprise Development in Java <em>by Andrew Lee Rubinger, Aslak Knutsen</em></a> . И вот там используется кузня. Столько рутины уже автоматизировано. Ведь удобно. Надо покопать дальше. Тут ведь и тестирование интеграционное удобнее. Ну т.е. расписано как сделать.</p>
+</div>
+<div class="paragraph">
+<p><strong>Что понравилось:</strong></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Описываешь почти человеческим языком</p>
+</li>
+<li>
+<p>Инкрементальное описание проекта</p>
+</li>
+<li>
+<p>Довольно тонкая настройка</p>
+</li>
+<li>
+<p>Выбор реализаций ифреймворков</p>
+</li>
+<li>
+<p>Хорошая подсказка по &lt;TAB&gt;, по ней в основном и учусь.</p>
+</li>
+<li>
+<p>По проекту гуляешь как по структуре каталогов в системе, те половина команд уже получается знаешь.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><strong>Не понравилось:</strong>
+<em>По сколько учусь по книге, то книга устарела. Но и официальный сайт тоже устарел. Приходится идти почти в слепую. В книге описывается версия 1 или 2, на сайте версия 3. То что скачалось jboss IDE там используется 3.0.1 кажется. И оно отличается от версии 3, отсутствуют некоторые свойства.</em></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Хоть я и выбрал scaffolding faces 2.2, когда сгенерировались вьюхи, там используется JSTL! Хотя и BalusC и официальный Oracle, кажется, уже говорят в фейсах забудьте про JSTL. Там своё уже есть, то и используйте.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Вот тут наконец, я нашел правильные команды кузни <a href="http://forge.jboss.org/document/hands-on-lab" class="bare">http://forge.jboss.org/document/hands-on-lab</a></p>
+</div>
+</td>
+</tr>
+</table>
+</div>]]></description><link>https://miroque.github.io/shirokuma/2016/05/17/Kuznya-a-ved-udobno-JBoss-Forge-pretty-sweet.html</link><guid isPermaLink="true">https://miroque.github.io/shirokuma/2016/05/17/Kuznya-a-ved-udobno-JBoss-Forge-pretty-sweet.html</guid><category><![CDATA[полезняшки]]></category><category><![CDATA[ черновик]]></category><dc:creator><![CDATA[Alexander]]></dc:creator><pubDate>Tue, 17 May 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Инструментарий для разработки JavaEE]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Если вы начинающий java-разработчик, и хотите разрабатывать под <strong>Android</strong> или <strong>Desktop</strong> то в принципе вы не ограниченны в выборе средств, это которые IDE. И чтоб не ходить вокруг да около, единстввенным достойным продуктом для такой разработки является IDE от компании JetBrains — <strong><em>Intellij Idea</em></strong> <em>Community Edition</em></p>
+</div>
+<div class="paragraph">
+<p>Но если вы хотите научится разрабатывать <strong>web</strong> ориентированные приложения, сервисы, серверы и тому подобное, то тут начинается самое интересное.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Кстати, не обязательно вы можете учиться, вы например можете работать в какой-нибудь мелкой региональной компании у которой просто тупо нет денег на софт.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>И вот тут проявляется во всей красе, условия, и объективность.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="__">О том как эти условия разыгрались в моём конкретном случае</h3>
+<div class="paragraph">
+<p>В целом, все равно выбор не большой, и это ОТЛИЧНО!!!</p>
+</div>
+<div class="paragraph">
+<p>Я буду рассматривать три редактора:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Intellij Idea</p>
+</li>
+<li>
+<p>NetBeans</p>
+</li>
+<li>
+<p>Eclipse</p>
+</li>
+</ol>
+</div>
+<div class="sect3">
+<h4 id="_intellij_idea_ultimate">Intellij Idea Ultimate</h4>
+<div class="paragraph">
+<p>И так. Начнем.</p>
+</div>
+<div class="paragraph">
+<p>Отличный редактор и всё такое. НО! он платный. Та да! Как написал свыше, если нет денег, то он не подходит.
+Да я знаю есть у них там EAP лицензия, которая для тестировщиков, типа. И много народу на ней сидят.
+Но! в последнее время у них  эта версия стала 30 днейвнйо, и усе, не получается ее использовать по истечении этих дней.
+Да там можно ее сбрасывать этот период и пользоваться дальше. Я сам года 2 так просидел, но, в какой-то определнный момент,
+этот трюк перестаёт срабатывать! И всё тут! Хоть что делай, не работает, говорит покупай.</p>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Это очень ломает всю вашу систему разработки, в тот момент когда совсем его не ждешь. И запросто можно потерять несколько часов, а то и дней, пока востановишь работоспособность.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Да а ещё у неё нет нормальной поддержки Redmine и вообще системы тикетов и тасков.</p>
+</div>
+<div class="paragraph">
+<p>Итог: вообще не подходит!</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_netbeans">NetBeans</h4>
+<div class="paragraph">
+<p>Прекрасный редактор, полнооконный режим есть. Прекрасно работает с системой тикетов, интеграция с Redmine самая идеальная которую я видел. Еще я слышал, что в нем классный профилировщик. Пока до профилировщика не дорос имено я.</p>
+</div>
+<div class="paragraph">
+<p>Но! Я не могу с ним работать только из одного и самого базового!!! Он вообще не работает нормально с WildFly!
+Он не может его остановить, он вообще очень коряво работает с ним. Из-за чего я не могу работать в этом редакторе.</p>
+</div>
+<div class="paragraph">
+<p>Итог: не подходит, из-за того что не работает с той системой с которой работаю, я.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_eclipse">Eclipse</h4>
+<div class="paragraph">
+<p>Выбор редакции, в конце концов. Работает с WildFly! Есть система тикетов, с Redmine.
+Да поддержка git не такая как мне нравиться в Intellij Idea, по этому приходиться использовать внешние тулзы, но основная это консоль git.</p>
+</div>
+</div>
+</div>]]></description><link>https://miroque.github.io/shirokuma/2016/05/10/Instrumentarij-dlya-razrabotki-JavaEE.html</link><guid isPermaLink="true">https://miroque.github.io/shirokuma/2016/05/10/Instrumentarij-dlya-razrabotki-JavaEE.html</guid><category><![CDATA[pipeline]]></category><category><![CDATA[ черновик]]></category><dc:creator><![CDATA[Alexander]]></dc:creator><pubDate>Tue, 10 May 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Остановить запущеный Wildfly]]></title><description><![CDATA[<div class="paragraph">
+<p>Очень часто бывает, особенно когда разрабатываешь с помощью какой нибудь IDE, что они запускают Wildfly, а потом теряют к нему соединение. И более того тебе бы нужно остановить его, или передеплоить, но мы получаем ошибку вида:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>Запуск Сервер приложений WildFly 8.2 final завершился сбоем. Точка присоединения HTTP 8080 уже используется.</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>опа, и чего делать дальше, перезапускать весь комьютер?</p>
+</div>
+<div class="paragraph">
+<p>Нет! Оказывается всё гораздо проще.</p>
+</div>
+<div class="paragraph">
+<p>Нужно зайти в директорию, где установле Wildfly в папку <code>/bin</code> и запустить <code>jboss-cli.sh</code> или <code>jboss-cli.bat</code></p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>{JBOSS_HOME}/bin/jboss-cli.sh --connect command=:shutdown</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>А когда сервер настроен на IP адресс, то необходимо использовать следующее</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>{JBOSS_HOME}/bin/jboss-cli.sh --connect controller=&lt;IP&gt;:&lt;port&gt; command=:shutdown</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Читается это всё на самом деле на сайте с документацией от wildfly
+<a href="https://community.jboss.org/wiki/JBossAS7UserGuide">JBossAS7UserGuide</a>
+в разделе <strong>Stopping a running instance of standalone server</strong></p>
+</div>]]></description><link>https://miroque.github.io/shirokuma/2015/07/04/Ostanovit-zapushenyj-Wildfly.html</link><guid isPermaLink="true">https://miroque.github.io/shirokuma/2015/07/04/Ostanovit-zapushenyj-Wildfly.html</guid><category><![CDATA[знай-свой-инструмент]]></category><dc:creator><![CDATA[Alexander]]></dc:creator><pubDate>Sat, 04 Jul 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Знай свой инструмент.]]></title><description><![CDATA[<div class="paragraph">
+<p>Знаете, как то в практике я понял, что называется <em>"на пальцах"</em>, что в нашей профессии программиста нам необходимо знать свой инструмент.</p>
+</div>
+<div class="paragraph">
+<p>Да, это очень облегчает наш труд, ведь инструмент это наш помошник. <em>Хороший инструмент</em> это хороший помошник. Но если ты не знаешь как им пользоваться, то какой от этого толк?!
+Никакого, всё правильно.</p>
+</div>
+<div class="paragraph">
+<p>Но к сожалению или к счастью, у нас столько инструментов! Я сам попользуюсь чем нибудь и поотм уже забываю, чтоо и как я это использовал.
+По этому я хочу записывать это все в журнал, под тегом, ну не знаю например: <code><strong>зси</strong></code> (<strong>з</strong>най <strong>с</strong>вой <strong>и</strong>нструмент) или <code><strong>kyi</strong></code> (<strong>k</strong>now <strong>y</strong>our <strong>i</strong>nstrument), мда как то на английском не очень звучит в нашем родном русском, куй&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>Хотя можно и нормально оставить: <code><strong>знай-свой-инструмент</strong></code></p>
+</div>]]></description><link>https://miroque.github.io/shirokuma/2015/06/14/Znaj-svoj-instrument.html</link><guid isPermaLink="true">https://miroque.github.io/shirokuma/2015/06/14/Znaj-svoj-instrument.html</guid><category><![CDATA[осозналка]]></category><dc:creator><![CDATA[Alexander]]></dc:creator><pubDate>Sun, 14 Jun 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Начало]]></title><description><![CDATA[<div class="paragraph">
+<p>Да знаете, очень давно искал подходящую систему для ведения журнала/заметок/записей. Начинал я с блогов: Blogger, Wordpress. И знаете как то не пошло. Для меня не хватало хранения локально моих записей, а так же раздражало что нужно пользоваться только онлайн браузерами, чтоб создавать записи, а дальше, их нельзя исправлять. И нет версионного контроля.</p>
+</div>
+<div class="paragraph">
+<p>В целом, много чего. <em>Но</em> вот в последнее время я увидел что в этом плане стало проще.</p>
+</div>]]></description><link>https://miroque.github.io/shirokuma/2015/06/13/Nachalo.html</link><guid isPermaLink="true">https://miroque.github.io/shirokuma/2015/06/13/Nachalo.html</guid><category><![CDATA[записулька]]></category><category><![CDATA[ осозналка]]></category><dc:creator><![CDATA[Alexander]]></dc:creator><pubDate>Sat, 13 Jun 2015 00:00:00 GMT</pubDate></item></channel></rss>
