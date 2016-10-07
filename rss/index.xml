@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Shirokuma's Roar]]></title><description><![CDATA[Блог немножко о том немножко о сем. Но в целом, о том как я программирую.]]></description><link>https://miroque.github.io/shirokuma</link><image><url>https://static.pexels.com/photos/64769/pexels-photo-64769.jpeg</url><title>Shirokuma&apos;s Roar</title><link>https://miroque.github.io/shirokuma</link></image><generator>RSS for Node</generator><lastBuildDate>Fri, 07 Oct 2016 16:10:42 GMT</lastBuildDate><atom:link href="https://miroque.github.io/shirokuma/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Заметки по генерированию классов из wsdl и xsd]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Shirokuma's Roar]]></title><description><![CDATA[Блог немножко о том немножко о сем. Но в целом, о том как я программирую.]]></description><link>https://miroque.github.io/shirokuma</link><image><url>https://static.pexels.com/photos/64769/pexels-photo-64769.jpeg</url><title>Shirokuma&apos;s Roar</title><link>https://miroque.github.io/shirokuma</link></image><generator>RSS for Node</generator><lastBuildDate>Fri, 07 Oct 2016 16:11:28 GMT</lastBuildDate><atom:link href="https://miroque.github.io/shirokuma/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Заметки по генерированию классов из wsdl и xsd]]></title><description><![CDATA[<div class="paragraph">
 <p>Для генерации java классов из wsdl описания при использовании JAX-WS, нужно воспользоваться программой поставляемой вместе с явой.</p>
 </div>
 <div class="paragraph">
@@ -54,7 +54,22 @@
 <div class="paragraph">
 <p>и указать это файл при генерации исходников:
 <code>xjc -b binding.xml -d sources -encoding UTF-8 [file]</code></p>
-</div>]]></description><link>https://miroque.github.io/shirokuma/2016/10/07/wsdl-xsd.html</link><guid isPermaLink="true">https://miroque.github.io/shirokuma/2016/10/07/wsdl-xsd.html</guid><category><![CDATA[полезняшки]]></category><dc:creator><![CDATA[Alexander]]></dc:creator><pubDate>Fri, 07 Oct 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Так как же стать мастером!? { How to become a Master!? }]]></title><description><![CDATA[<div class="paragraph">
+</div>]]></description><link>https://miroque.github.io/shirokuma/2016/10/07/wsdl-xsd.html</link><guid isPermaLink="true">https://miroque.github.io/shirokuma/2016/10/07/wsdl-xsd.html</guid><category><![CDATA[полезняшки]]></category><dc:creator><![CDATA[Alexander]]></dc:creator><pubDate>Fri, 07 Oct 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Докер, наконец-то]]></title><description><![CDATA[<div class="paragraph">
+<p>В общем и целом, наконец-то я нашел хорошие ресурсы где можно по быстрому подкачаться с этим Докером.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a href="https://docs.docker.com/windows/" class="bare">https://docs.docker.com/windows/</a> да я сижу на винде, короче это первый ресурс с которого надо начать читать.</p>
+</li>
+<li>
+<p><a href="https://docs.docker.com/kitematic/userguide/" class="bare">https://docs.docker.com/kitematic/userguide/</a> это под виндой графическая тулза для работы с докером, тоже полезно, это второй шаг читать</p>
+</li>
+<li>
+<p><a href="https://docs.docker.com/engine/userguide/" class="bare">https://docs.docker.com/engine/userguide/</a> а это как я понял, просто вообще про сам движек докера</p>
+</li>
+</ol>
+</div>]]></description><link>https://miroque.github.io/shirokuma/2016/06/08/Docker-at-last.html</link><guid isPermaLink="true">https://miroque.github.io/shirokuma/2016/06/08/Docker-at-last.html</guid><category><![CDATA[черновик]]></category><dc:creator><![CDATA[Alexander]]></dc:creator><pubDate>Wed, 08 Jun 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Так как же стать мастером!? { How to become a Master!? }]]></title><description><![CDATA[<div class="paragraph">
 <p>There is no secret, just do something for long time with passion.</p>
 </div>
 <div class="paragraph">
