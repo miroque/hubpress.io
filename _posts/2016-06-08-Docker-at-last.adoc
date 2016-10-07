@@ -1,4 +1,4 @@
-= Докер, наконец-то
+= Докер, наконец-то {Docker, at last}
 :hp-tags: черновик
 :hp-alt-title: Docker, at last
 
