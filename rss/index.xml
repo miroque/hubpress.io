@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Shirokuma's Roar]]></title><description><![CDATA[Блог немножко о том немножко о сем. Но в целом, о том как я программирую.]]></description><link>https://miroque.github.io/shirokuma</link><image><url>https://static.pexels.com/photos/64769/pexels-photo-64769.jpeg</url><title>Shirokuma&apos;s Roar</title><link>https://miroque.github.io/shirokuma</link></image><generator>RSS for Node</generator><lastBuildDate>Fri, 07 Oct 2016 06:28:12 GMT</lastBuildDate><atom:link href="https://miroque.github.io/shirokuma/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Докер, наконец-то { Docker, at last }]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Shirokuma's Roar]]></title><description><![CDATA[Блог немножко о том немножко о сем. Но в целом, о том как я программирую.]]></description><link>https://miroque.github.io/shirokuma</link><image><url>https://static.pexels.com/photos/64769/pexels-photo-64769.jpeg</url><title>Shirokuma&apos;s Roar</title><link>https://miroque.github.io/shirokuma</link></image><generator>RSS for Node</generator><lastBuildDate>Fri, 07 Oct 2016 06:41:48 GMT</lastBuildDate><atom:link href="https://miroque.github.io/shirokuma/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Заметки по генерированию классов из wsdl и xsd]]></title><description><![CDATA[<div class="paragraph">
+<p>Для генерации java классов из wsdl описания при использовании JAX-WS, нужно воспользоваться программой поставляемой вместе с явой.</p>
+</div>
+<div class="paragraph">
+<p>Но эти программы не умеют самостоятельно создавать директории/папки, по этому для генерации
+неободимо эти папки создавать самостоятельно, в нашем случае это будет папка <code>sources</code></p>
+</div>
+<div class="paragraph">
+<p>Это генерим ява классы из wsdl с помощью jax-ws:</p>
+</div>
+<div class="paragraph">
+<p><code>wsimport -keep -s sources -Xendorsed [url or file]</code></p>
+</div>
+<div class="paragraph">
+<p>Это генерим ява классы из xsd с помощью jaxb:</p>
+</div>
+<div class="paragraph">
+<p><code>xjc -d sources -encoding UTF-8 [file]</code></p>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>Особенность xsd типов этого проекта. В описании типов есть такие названия, <strong>ind1_1</strong> и <strong>ind11</strong>.
+Только вот инструмент <strong>xjc</strong> не воспринимает  символ подчеркивания - " <strong>_</strong> ".
+И название <strong>ind1_1</strong> он воспринимает как <strong>ind11</strong>, и о чем он потом ругается
+  такой ошибкой <strong>"Two declarations cause a collision in the ObjectFactory class"</strong></p>
+</div>
+</blockquote>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>Подсказку взял на <a href="http://stackoverflow.com/questions/20218820/xjc-does-not-handle-underscores-properly">стаковерфлоу</a></p>
+</div>
+</blockquote>
+</div>
+<div class="paragraph">
+<p>Решением этой ошибки является ручное связывание типов (<strong>external binding</strong>).</p>
+</div>
+<div class="paragraph">
+<p>Для этого необходимо создать файл, например <strong>binding.xml</strong> в котором надо написать следующее:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-xml" data-lang="xml">&lt;jaxb:bindings
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+    xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+    version="2.1"&gt;
+    &lt;jaxb:globalBindings underscoreBinding="asCharInWord"/&gt;
+&lt;/jaxb:bindings&gt;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>и указать это файл при генерации исходников:
+<code>xjc -b binding.xml -d sources -encoding UTF-8 [file]</code></p>
+</div>]]></description><link>https://miroque.github.io/shirokuma/2016/10/07/wsdl-xsd.html</link><guid isPermaLink="true">https://miroque.github.io/shirokuma/2016/10/07/wsdl-xsd.html</guid><dc:creator><![CDATA[Alexander]]></dc:creator><pubDate>Fri, 07 Oct 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Докер, наконец-то { Docker, at last }]]></title><description><![CDATA[<div class="paragraph">
 <p>В общем и целом, наконец-то я нашел хорошие ресурсы где можно по быстрому подкачаться с этим Докером.</p>
 </div>
 <div class="olist arabic">
