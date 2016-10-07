@@ -1,0 +1,36 @@
+= Заметки по генерированию классов из wsdl и xsd
+
+Для генерации java классов из wsdl описания при использовании JAX-WS, нужно воспользоваться программой поставляемой вместе с явой.
+
+Но эти программы не умеют самостоятельно создавать директории/папки, по этому для генерации
+неободимо эти папки создавать самостоятельно, в нашем случае это будет папка `sources`
+
+Это генерим ява классы из wsdl с помощью jax-ws:
+`wsimport -keep -s sources -Xendorsed [url or file]`
+
+Это генерим ява классы из xsd с помощью jaxb:
+`xjc -d sources -encoding UTF-8 [file]`
+
+> Особенность xsd типов этого проекта. В описании типов есть такие названия, **ind1_1** и **ind11**.
+Только вот инструмент **xjc** не воспринимает  символ подчеркивания - " **_** ".
+И название **ind1_1** он воспринимает как **ind11**, и о чем он потом ругается
+  такой ошибкой **"Two declarations cause a collision in the ObjectFactory class"**
+
+> Подсказку взял на [стаковерфлоу](http://stackoverflow.com/questions/20218820/xjc-does-not-handle-underscores-properly)
+ 
+Решением этой ошибки является ручное связывание типов ( *external binding* ).
+
+Для этого необходимо создать файл, например *binding.xml* в котором надо написать следующее:
+
+```xml
+<jaxb:bindings 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+    xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+    version="2.1">
+    <jaxb:globalBindings underscoreBinding="asCharInWord"/>
+</jaxb:bindings>
+```
+
+и указать это файл при генерации исходников:
+`xjc -b binding.xml -d sources -encoding UTF-8 [file]`
