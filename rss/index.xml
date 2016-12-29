@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Shirokuma's Roar]]></title><description><![CDATA[Блог немножко о том немножко о сем. Но в целом, о том как я программирую.]]></description><link>https://miroque.github.io/shirokuma</link><image><url>https://static.pexels.com/photos/64769/pexels-photo-64769.jpeg</url><title>Shirokuma&apos;s Roar</title><link>https://miroque.github.io/shirokuma</link></image><generator>RSS for Node</generator><lastBuildDate>Thu, 29 Dec 2016 05:23:21 GMT</lastBuildDate><atom:link href="https://miroque.github.io/shirokuma/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Заметки по генерированию классов из wsdl и xsd]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Shirokuma's Roar]]></title><description><![CDATA[Блог немножко о том немножко о сем. Но в целом, о том как я программирую.]]></description><link>https://miroque.github.io/shirokuma</link><image><url>https://static.pexels.com/photos/64769/pexels-photo-64769.jpeg</url><title>Shirokuma&apos;s Roar</title><link>https://miroque.github.io/shirokuma</link></image><generator>RSS for Node</generator><lastBuildDate>Thu, 29 Dec 2016 05:23:41 GMT</lastBuildDate><atom:link href="https://miroque.github.io/shirokuma/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Заметки по генерированию классов из wsdl и xsd]]></title><description><![CDATA[<div class="paragraph">
 <p>Для генерации java классов из wsdl описания при использовании JAX-WS, нужно воспользоваться программой поставляемой вместе с явой.</p>
 </div>
 <div class="paragraph">
@@ -247,7 +247,41 @@
 Да поддержка git не такая как мне нравиться в Intellij Idea, по этому приходиться использовать внешние тулзы, но основная это консоль git.</p>
 </div>
 </div>
-</div>]]></description><link>https://miroque.github.io/shirokuma/2016/05/10/Instrumentarij-dlya-razrabotki-JavaEE.html</link><guid isPermaLink="true">https://miroque.github.io/shirokuma/2016/05/10/Instrumentarij-dlya-razrabotki-JavaEE.html</guid><category><![CDATA[pipeline]]></category><category><![CDATA[ черновик]]></category><dc:creator><![CDATA[Alexander]]></dc:creator><pubDate>Tue, 10 May 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Знай свой инструмент.]]></title><description><![CDATA[<div class="paragraph">
+</div>]]></description><link>https://miroque.github.io/shirokuma/2016/05/10/Instrumentarij-dlya-razrabotki-JavaEE.html</link><guid isPermaLink="true">https://miroque.github.io/shirokuma/2016/05/10/Instrumentarij-dlya-razrabotki-JavaEE.html</guid><category><![CDATA[pipeline]]></category><category><![CDATA[ черновик]]></category><dc:creator><![CDATA[Alexander]]></dc:creator><pubDate>Tue, 10 May 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Остановить запущенный Wildfly]]></title><description><![CDATA[<div class="paragraph">
+<p>Очень часто бывает, особенно когда разрабатываешь с помощью какой нибудь IDE, что они запускают Wildfly, а потом теряют к нему соединение. И более того тебе бы нужно остановить его, или передеплоить, но мы получаем ошибку вида:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>Запуск Сервер приложений WildFly 8.2 final завершился сбоем. Точка присоединения HTTP 8080 уже используется.</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>опа, и чего делать дальше, перезапускать весь комьютер?</p>
+</div>
+<div class="paragraph">
+<p>Нет! Оказывается всё гораздо проще.</p>
+</div>
+<div class="paragraph">
+<p>Нужно зайти в директорию, где установле Wildfly в папку <code>/bin</code> и запустить <code>jboss-cli.sh</code> или <code>jboss-cli.bat</code></p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>{JBOSS_HOME}/bin/jboss-cli.sh --connect command=:shutdown</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>А когда сервер настроен на IP адресс, то необходимо использовать следующее</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>{JBOSS_HOME}/bin/jboss-cli.sh --connect controller=&lt;IP&gt;:&lt;port&gt; command=:shutdown</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Читается это всё на самом деле на сайте с документацией от wildfly
+<a href="https://community.jboss.org/wiki/JBossAS7UserGuide">JBossAS7UserGuide</a>
+в разделе <strong>Stopping a running instance of standalone server</strong></p>
+</div>]]></description><link>https://miroque.github.io/shirokuma/2015/07/04/Wildfly.html</link><guid isPermaLink="true">https://miroque.github.io/shirokuma/2015/07/04/Wildfly.html</guid><category><![CDATA[знай-свой-инструмент]]></category><dc:creator><![CDATA[Aleksander Panov]]></dc:creator><pubDate>Sat, 04 Jul 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Знай свой инструмент.]]></title><description><![CDATA[<div class="paragraph">
 <p>Знаете, как то в практике я понял, что называется <em>"на пальцах"</em>, что в нашей профессии программиста нам необходимо знать свой инструмент.</p>
 </div>
 <div class="paragraph">
