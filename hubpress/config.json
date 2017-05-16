@@ -20,5 +20,21 @@
   },
   "theme": {
     "name": "ghostium"
+  },
+  "urls": {
+    "site": "https://miroque.github.io/shirokuma",
+    "hubpress": "http://miroque.github.io/shirokuma",
+    "theme": "//miroque.github.io/shirokuma/themes/ghostium",
+    "images": "https://miroque.github.io/shirokuma/images"
+  },
+  "initialisationConfigComponent": {
+    "name": "initialise-configuration",
+    "computed": {},
+    "methods": {},
+    "staticRenderFns": [
+      null,
+      null,
+      null
+    ]
   }
 }
