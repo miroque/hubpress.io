@@ -7,3 +7,6 @@
 :hp-image: image::https://c1.staticflickr.com/7/6200/6072581585_bc48f64a1f.jpg
 
 Sample
+
+dample import hosted image
+image::https://c1.staticflickr.com/7/6200/6072581585_bc48f64a1f.jpg
