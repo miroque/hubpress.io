@@ -8,8 +8,8 @@
   "site": {
     "title": "Shirokuma's Roar",
     "description": "Блог немножко о том немножко о сем. Но в целом, о том как я программирую.",
-    "logo": "http://icons.iconarchive.com/icons/hopstarter/sleek-xp-basic/32/Document-Blank-icon.png",
-    "cover": "",
+    "logo": "http://icons.iconarchive.com/icons/treetog/junior/96/folder-documents-icon.png",
+    "cover": "https://static.pexels.com/photos/57858/pexels-photo-57858.jpeg",
     "googleAnalytics": "UA-7648010-8",
     "disqus": "shirokumasroar",
     "delay": "",
