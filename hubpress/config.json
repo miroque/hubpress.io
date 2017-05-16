@@ -33,7 +33,7 @@
   "urls": {
     "site": "https://miroque.github.io/shirokuma",
     "hubpress": "http://miroque.github.io/shirokuma",
-    "theme": "//miroque.github.io/shirokuma/themes/ghostium",
+    "theme": "//miroque.github.io/shirokuma/themes/uno-zen",
     "images": "https://miroque.github.io/shirokuma/images"
   },
   "initialisationConfigComponent": {
