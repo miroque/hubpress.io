@@ -2,7 +2,8 @@
   "meta": {
     "username": "miroque",
     "repositoryName": "shirokuma",
-    "branch": "gh-pages"
+    "branch": "gh-pages",
+    "cname": ""
   },
   "site": {
     "title": "Shirokuma's Roar",
@@ -10,13 +11,21 @@
     "logo": "http://icons.iconarchive.com/icons/elegantthemes/beautiful-flat/48/aperture-icon.png",
     "cover": "https://static.pexels.com/photos/64769/pexels-photo-64769.jpeg",
     "googleAnalytics": "UA-7648010-8",
-    "disqus": "shirokumasroar"
+    "disqus": "shirokumasroar",
+    "delay": "",
+    "postsPerPage": ""
   },
   "socialnetwork": {
     "email": "i.miroque@gmail.com",
     "twitter": "https://twitter.com/i_miroque",
     "linkedin": "https://www.linkedin.com/profile/view?id=AAMAAAQA6h8Bm8x0dfXeMc4QpzGc0KubXneYNN4&trk=hp-identity-name",
-    "github": "https://github.com/miroque/"
+    "github": "https://github.com/miroque/",
+    "facebook": "",
+    "googleplus": "",
+    "instagram": "",
+    "pinterest": "",
+    "flickr": "",
+    "stackoverflow": "http://stackoverflow.com/users/1679702/miroque"
   },
   "theme": {
     "name": "ghostium"
