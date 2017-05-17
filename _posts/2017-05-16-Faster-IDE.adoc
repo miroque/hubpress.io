@@ -1,12 +1,9 @@
 = Faster IDE
 // See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
-// :hp-image: /covers/cover.png
-// :published_at: 2019-01-31
-// :hp-tags: HubPress, Blog, Open_Source,
-// :hp-alt-title: My English Title
-// :hp-image: image::https://c1.staticflickr.com/7/6200/6072581585_bc48f64a1f.jpg
 
 Sample
 
-dample import hosted image
-image::https://c1.staticflickr.com/7/6200/6072581585_bc48f64a1f.jpg[]
+image::https://c1.staticflickr.com/7/6200/6072581585_bc48f64a1f.jpg[sample img]
+
+asfkjakl;
+laksjdfkljdsfa
