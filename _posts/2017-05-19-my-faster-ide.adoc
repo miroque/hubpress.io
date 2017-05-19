@@ -1,5 +1,5 @@
-= Sample post
-:hp-tags: sample
+= I want faster IDE
+:hp-tags: полезняшки
 :hp-alt-title: my faster ide
 
-Проверяем как это работает
+So, at some point I wanted migrate from Eclipse to something more faster…
