@@ -1,3 +1,10 @@
 = Your Blog title
-
+:hp-tags: полезняшки
 la la la
+
+
+== В поисках шустрого IDE для Java разработки
+
+image::https://c1.staticflickr.com/7/6200/6072581585_bc48f64a1f.jpg[sample img]
+
+Вот примерно с таким выражением лица, я и начал свои поиски…
