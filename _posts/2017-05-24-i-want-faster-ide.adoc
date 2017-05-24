@@ -1,9 +1,0 @@
-= В поисках шустрого IDE для Java разработки 2
-:hp-tags: полезняшки
-:hp-alt-title: i want faster ide
-
-== Где же ты, о моя шустрая IDE?
-
-image::https://c1.staticflickr.com/7/6200/6072581585_bc48f64a1f.jpg[sample img]
-
-Вот примерно с таким выражением лица, я и начал свои поиски…
