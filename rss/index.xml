@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Shirokuma's Roar]]></title><description><![CDATA[Блог немножко о том немножко о сем. Но в целом, о том как я программирую.]]></description><link>https://miroque.github.io/shirokuma</link><image><url>https://static.pexels.com/photos/221037/pexels-photo-221037.jpeg</url><title>Shirokuma&apos;s Roar</title><link>https://miroque.github.io/shirokuma</link></image><generator>RSS for Node</generator><lastBuildDate>Tue, 15 Aug 2017 04:27:58 GMT</lastBuildDate><atom:link href="https://miroque.github.io/shirokuma/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Заметки по генерированию классов из wsdl и xsd]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Shirokuma's Roar]]></title><description><![CDATA[Блог немножко о том немножко о сем. Но в целом, о том как я программирую.]]></description><link>https://miroque.github.io/shirokuma</link><image><url>https://static.pexels.com/photos/221037/pexels-photo-221037.jpeg</url><title>Shirokuma&apos;s Roar</title><link>https://miroque.github.io/shirokuma</link></image><generator>RSS for Node</generator><lastBuildDate>Tue, 15 Aug 2017 04:32:08 GMT</lastBuildDate><atom:link href="https://miroque.github.io/shirokuma/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Шустрая IDE {Faster IDE}]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="https://c1.staticflickr.com/7/6200/6072581585_bc48f64a1f.jpg" alt="where are you?">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="__ide">«О где же ты? О моя шустрая IDE»</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>На слабом железе, все IDE работают медленно, потому что постоянно свопить
+на диск оно желает.</p>
+</div>
+</div>
+</div>]]></description><link>https://miroque.github.io/shirokuma/2017/05/16/IDE-Faster-IDE.html</link><guid isPermaLink="true">https://miroque.github.io/shirokuma/2017/05/16/IDE-Faster-IDE.html</guid><dc:creator><![CDATA[Aleksander Panov]]></dc:creator><pubDate>Tue, 16 May 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Заметки по генерированию классов из wsdl и xsd]]></title><description><![CDATA[<div class="paragraph">
 <p>Для генерации java классов из wsdl описания при использовании JAX-WS, нужно воспользоваться программой поставляемой вместе с явой.</p>
 </div>
 <div class="paragraph">
