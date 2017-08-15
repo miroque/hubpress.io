@@ -1,4 +1,0 @@
-= Хороший справочник по ASCIIDOC
-:hp-tags: знай-свой-инструмент
-
-https://powerman.name/doc/asciidoc
