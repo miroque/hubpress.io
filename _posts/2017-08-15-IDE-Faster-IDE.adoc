@@ -1,4 +1,4 @@
-= Шустрая IDE {Faster IDE}
+= Шустрая IDE (Faster IDE)
 :hp-tags: черновик
 
 image::https://c1.staticflickr.com/7/6200/6072581585_bc48f64a1f.jpg[where are you?]
