@@ -1,4 +1,4 @@
-= Хороший справочник по ASCIIDOC (AsciiDoc cheatsheet)
+= Хороший справочник по ASCIIDOC {AsciiDoc cheatsheet}
 :hp-tags: знай-свой-инструмент
 
 https://powerman.name/doc/asciidoc
