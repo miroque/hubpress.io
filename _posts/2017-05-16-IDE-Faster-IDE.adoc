@@ -1,9 +1,9 @@
-= Faster IDE
-// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+= Шустрая IDE {Faster IDE}
+:hp-tag: черновик
 
-== Sample
+image::https://c1.staticflickr.com/7/6200/6072581585_bc48f64a1f.jpg[where are you?]
 
-image::https://c1.staticflickr.com/7/6200/6072581585_bc48f64a1f.jpg[sample img]
+== «О где же ты? О моя шустрая IDE»
 
-=== Да не ужели!?
-Пофиксили проблемку!?
+На слабом железе, все IDE работают медленно, потому что постоянно свопить
+на диск оно желает.
