@@ -1,0 +1,9 @@
+= Faster IDE
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+
+== Sample
+
+image::https://c1.staticflickr.com/7/6200/6072581585_bc48f64a1f.jpg[sample img]
+
+=== Да не ужели!?
+Пофиксили проблемку!?
