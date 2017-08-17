@@ -1,5 +1,6 @@
 = Шустрая IDE
 :hp-tags: черновик
+:hp-alt-title: Speedy IDE
 
 image::https://c1.staticflickr.com/7/6200/6072581585_bc48f64a1f.jpg[where are you?]
 
