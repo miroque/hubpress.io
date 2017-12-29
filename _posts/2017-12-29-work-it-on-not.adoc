@@ -1,0 +1,10 @@
+= Интересно починили или нет этот блог движок
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+// :hp-image: /covers/cover.png
+// :published_at: 2019-01-31
+:hp-tags: знай-свой-инструмент
+:hp-alt-title: work it on not
+
+== Впрочем даже не знаю с чего начать
+
+Хотя может начинать то особо и не чего. Просто тестовая запись.
